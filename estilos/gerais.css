@@ -69,9 +69,10 @@ nav > a:active{
 
 h1{
     text-align: center;
-    font-size: 1.5em;
-    padding: 10px;
-    margin: 20px;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
 
     border-radius: 20px;
     background-image: linear-gradient(to right, white, rgb(197, 200, 23));
@@ -128,6 +129,7 @@ section{
 }
 
 h2{
+    font-size: 1em;
     padding: 10px;
     border-radius: 15px;
     background-image: linear-gradient(to right, lightgreen, white);
@@ -138,7 +140,7 @@ li{
 }
 
 li:nth-child(2n){
-    color: rgb(222, 17, 17);
+    color: #00A058;
 }
 
 footer{
@@ -184,4 +186,31 @@ footer > a:active{
 h3{
     text-align: center;
     margin-bottom: 20px;
+}
+
+audio{
+    width: 90%;
+}
+
+.links{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    display: block;
+    width: 70%;
+
+    margin: 50px auto;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: yellow;
+}
+
+.links:hover{
+    opacity: 60%;
+    text-decoration: underline;
+}
+
+.links:active{
+    color: white;
+    background-color: red;
 }

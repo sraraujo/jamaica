@@ -46,10 +46,11 @@
     /* Configurações de outras páginas*/
 
     .container{
-        width: 80%;
+        width: 90%;
         gap: 20px;
     
         display: flex;
+        flex-direction: row;
         justify-content: center;
         margin: 20px auto;
         padding: 20px;
