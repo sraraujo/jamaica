@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+
+    body{
+        background-image: url("../imagens/logo.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    main{
+        max-width: 400px;
+    }
+    
+    .content{
+        width: 90%;
+    }
+
+    .question{
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    .answer{
+        font-size: 16px;
+        padding: 10px 0 10px 10px;
+    }
+
+    .finish span{
+        font-size: 24px;
+    }
+}

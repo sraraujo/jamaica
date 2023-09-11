@@ -35,12 +35,16 @@
         width: 450px;
     }
 
-    ul#lista-economia{
+    #lista-coluna{
         columns: 2;
     }  
     
-    li{
-        line-height: 1.7em;
+    li:nth-child(2n){
+        color: black;
+    }
+
+    footer > p{
+        font-size: 18px;
     }
 
     /* Configurações de outras páginas*/
