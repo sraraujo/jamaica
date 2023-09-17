@@ -139,7 +139,7 @@ li{
     margin: 0 0 15px 30px;
 }
 
-ul > li:nth-child(2n){
+li:nth-child(2n){
     color: #00A058;
 }
 
@@ -255,4 +255,8 @@ div#setas{
 .links:active{
     color: white;
     background-color: green;
+}
+
+.direita{
+    content: "F138";
 }
